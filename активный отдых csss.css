@@ -146,7 +146,129 @@ h3 {
 .img-third2{
   background-image: url(https://img.tourister.ru/files/8/9/0/9/6/8/6/original.jpg);
 }
+@media (max-width: 1800px){
+.second{
+  flex-direction: row;
+  gap: 1.6em;
+}}
+
+
+
+@media (max-width: 1300px) {
+  .card > a{
+  margin-bottom: 3em;
+  margin-top: 10px;
+}
 .second{
   flex-direction: row;
   gap: 1.6em;
 }
+.item{
+  max-width: 300px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    padding: 1em 2em;
+}
+.img{
+  width: 14em;
+  height: 12em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+
+    
+}
+
+
+
+@media (max-width: 1185px) {
+  .card > a{
+  margin-bottom: 3em;
+  margin-top: 10px;
+}.second{
+  flex-direction: row;
+  gap: 1.6em;
+}
+
+.item{
+  max-width: 300px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0, 0, 0, 0.43);
+    padding: 1em 2em;
+}
+.img{
+  width: 14em;
+  height: 12em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+  
+}
+
+
+
+
+
+@media (max-width: 780px) {
+  .container second{
+  gap: 1.0em;
+}
+  .card > a{
+  margin-bottom: 1em;
+  margin-top: 3px;
+}
+.item{
+  max-width: 200px;
+  background-color: white;
+  border-radius: .5em;
+  padding: 1em 2em;
+}
+.img{
+  width: 10em;
+  height: 8em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+@media (max-width: 580px) {
+  .container second{
+  gap: 0.5 em;
+}
+  .card > a{
+  margin-bottom: 1em;
+  margin-top: 3px;
+}
+.item{
+  max-width: 150px;
+  background-color: white;
+  border-radius: .5em;
+  padding: 1em 2em;
+}
+.img{
+  width: 9em;
+  height: 7em;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: 0.3em;
+}
+
+  
+    
